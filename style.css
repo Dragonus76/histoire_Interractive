@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow:hidden;
+}
+#hHistoire {
+    width: 100%;
+    color: yellow;
+    height: 80%;
+    background: url(https://www.courrierinternational.com/sites/ci_master/files/styles/image_original_1280/public/assets/images/pia14832_orig.jpg?itok=LtpeitiD) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+    overflow-y:scroll;
+}
+#hPied, .hHistoire:after {
+    position:static;
+    bottom: 0;
+    height: 20%;
+}
+#hQuestion {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #EEE;
+    color: #333;
+}
+#hReponse {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #ff333e;
+    color: #FFF;
+    text-align: center;
+    display: none;
+}
+.hEpisode {
+    display:none;
+}
+p {
+    margin-top: 1em;
+}
